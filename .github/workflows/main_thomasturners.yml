@@ -34,7 +34,7 @@ jobs:
         file: ./Dockerfile
 
     - name: npm install, build, and test
-        run: |
+        run: 
           npm install
           npm install jest
           npm install -g jest ts
